@@ -1,0 +1,11 @@
+name: handson-ml
+dependencies:
+  - python=3.5
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - pandas
+  - pillow
+  - pip:
+    - tensorflow-gpu
+    - watermark
