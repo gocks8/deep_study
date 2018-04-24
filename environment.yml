@@ -6,6 +6,9 @@ dependencies:
   - jupyter
   - pandas
   - pillow
+  - nltk
   - pip:
     - tensorflow-gpu
+    - graphviz
     - watermark
+    - urlextract
