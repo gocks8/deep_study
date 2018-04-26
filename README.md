@@ -17,13 +17,23 @@
 
 먼저 [git](https://git-scm.com/)이 설치되어 있지 않다면 이를 설치해야 합니다.
 
-그다음 터미널을 열고 다음 명령으로 이 레파지토리를 클론합니다(수정된 내용을 보관하고 싶다면 깃허브에서 포크한 레파지토리를 클론하는 것이 좋습니다):
+그다음 터미널을 열고 다음 명령으로 이 레파지토리를 클론합니다.
+
+>(옮긴이) 수정된 내용을 보관하고 싶다면 깃허브에서 포크한 레파지토리를 클론하는 것이 좋습니다
 
     $ cd $HOME  # 또는 적절한 다른 디렉토리
     $ git clone https://github.com/rickiepark/handson-ml.git
     $ cd handson-ml
 
-16장의 강화학습 예제를 위해서는 [OpenAI gym](https://gym.openai.com/docs)과 아타리 환경을 설치해야 합니다.
+16장의 강화학습 예제를 위해서는 [OpenAI 짐(gym)](https://gym.openai.com/docs)과 아타리 환경을 설치해야 합니다.
+
+>(옮긴이) 아나콘다가 설치되어 있다면 다음 명령을 사용하여 OpenAI 짐에 필요한 라이브러리를 먼저 시스템에 설치해야 합니다. 리눅스에서는 다음과 같습니다.
+>
+>$ sudo apt-get install -y cmake zlib1g-dev libjpeg-dev xvfb libav-tools xorg-dev libboost-all-dev libsdl2-dev swig
+>
+>맥OS에서 명령은 다음과 같습니다.
+>
+>$ brew install cmake boost boost-python sdl2 swig wget
 
 파이썬을 잘 알고 파이썬 라이브러리를 설치하는 방법을 알고 있으면 바로 `requirements.txt`에 리스트된 라이브러리를 설치하고 [주피터 시작하기](#starting-jupyter) 섹션으로 가도 됩니다. 자세한 설치 방법이 필요하면 다음을 참고하세요.
 
