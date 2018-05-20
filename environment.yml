@@ -1,6 +1,5 @@
 name: handson-ml
 dependencies:
-  - python=3.5
   - scikit-learn
   - matplotlib
   - jupyter
@@ -13,3 +12,4 @@ dependencies:
     - graphviz
     - watermark
     - urlextract
+    - xgboost
